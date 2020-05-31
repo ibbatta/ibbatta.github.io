@@ -1,0 +1,15 @@
+{
+  "name": "Maurizio Battaghini",
+  "email": "maurizio.battaghini+tech@gmail.com",
+  "description": "Maurizio Battaghini is a professional swimmer, Web Engineer, Music Enthusiast living and working in Rome.",
+  "socialnetworks": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/battago"
+    },
+    {
+      "name": "Github",
+      "url": "https://github.com/ibbatta"
+    }
+  ]
+}

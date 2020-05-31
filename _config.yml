@@ -1,3 +1,9 @@
-name: Ibbatta Jekyll template
+name: Ibbatta Jekyll test
+title: Ibbatta Jekyll test
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
+paginate: 5
+paginate_path: /blog/page:num
+sass:
+  sass_dir: _scss
+  style: compressed

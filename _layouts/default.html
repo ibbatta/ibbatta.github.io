@@ -1,40 +1,4 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap"
-      rel="stylesheet"
-    />
-    <style>
-      html,
-      body {
-        font-family: 'Roboto', sans-serif;
-        font-size: 16px;
-        font-weight: 400;
-      }
-
-      #wrapper {
-        width: 100vw;
-        height: 100vh;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-      }
-
-      .disclaimer {
-        text-transform: uppercase;
-        text-align: center;
-        font-size: 5rem;
-        font-weight: 100;
-      }
-    </style>
-    <title>{{ page.title }}</title>
-  </head>
-  <body>
-    <div id="wrapper">
-      {{ content }}
-    </div>
-  </body>
+  {% include head.html %} {% include body.html %}
 </html>
